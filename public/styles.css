@@ -44,6 +44,7 @@ tr:nth-child(even) {
   text-decoration: underline;
   position: relative;
   margin-bottom: -70px;
+  z-index: -1;
 }
 
 .nest {
