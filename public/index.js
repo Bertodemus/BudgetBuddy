@@ -63,7 +63,7 @@ function populateChart() {
   }
 
   let ctx = document.getElementById("myChart").getContext("2d");
-
+  Chart.defaults.global.defaultFontColor = 'white';
   myChart = new Chart(ctx, {
     type: 'line',
       data: {
@@ -71,10 +71,26 @@ function populateChart() {
         datasets: [{
             label: "Total Over Time",
             fill: true,
-            backgroundColor: "#6666ff",
+            backgroundColor: "#f3a412",
             data
         }]
-    }
+      },
+      options: {
+        scales: {
+          xAxes: [{
+            gridLines: {
+              color: 'rgba(255,255,255,0.5)',
+              lineWidth: 0.5
+            }
+          }],
+          yAxes: [{
+            gridLines: {
+              color: 'rgba(255,255,255,0.5)',
+              lineWidth: 0.5
+            }
+          }]
+        }
+      }
   });
 }
 

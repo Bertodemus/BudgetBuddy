@@ -1,25 +1,31 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Josefin Sans', Arial;
+  background: linear-gradient(#424242, #161616) fixed;
+  color: #e4e4e4;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Josefin Sans', Arial;  
 }
 
 table {
   width: 100%;
 }
 
+th {
+  color: #f3a412;
+}
+
 td, th {
-  border: 1px solid #dddddd;
+  border: 0.5px solid #ddddddb9;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #242424;
 }
 
 .error {
@@ -33,7 +39,8 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
+  font-size: 115%;
+  color: #f3a412;
   text-decoration: underline;
 }
 
