@@ -1,7 +1,7 @@
 body {
-  font-size: 120%;
+
   font-family: 'Josefin Sans', Arial;
-  background: linear-gradient(#424242, #161616) fixed;
+  background: linear-gradient(#424242, #242424) fixed;
   color: #e4e4e4;
 }
 
@@ -39,13 +39,22 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 115%;
+  font-size: 100%;
   color: #f3a412;
   text-decoration: underline;
+  position: relative;
+  margin-bottom: -70px;
+}
+
+.nest {
+  position: relative;
+  bottom: 110px;
+  left: 100px;
+  font-size: 2em;
 }
 
 .form {
-  margin-top: 25px;
+  margin-top: 5px;
   width: 100%;
 }
 
